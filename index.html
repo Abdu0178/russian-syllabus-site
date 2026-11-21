@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f9fc" />
+    <meta
+      name="description"
+      content="Интерактивный силлабус по русскому языку B1 на 2026–2027 учебный год"
+    />
+    <title>Русский язык B1 — Силлабус | ALT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand-mark">A<span>.</span></div>
+          <div class="brand-text">
+            <strong>ALT Study</strong><small>Учебный портал</small>
+          </div>
+        </div>
+        <div class="side-caption">ОБУЧЕНИЕ</div>
+        <nav class="nav" id="navigation">
+          <button class="nav-item active" data-page="home">
+            <span>▦</span> Обзор курса</button
+          ><button class="nav-item" data-page="weeks">
+            <span>▤</span> Учебный план <em>15</em></button
+          ><button class="nav-item" data-page="tasks">
+            <span>☑</span> Задания</button
+          ><button class="nav-item" data-page="grades">
+            <span>◴</span> Оценивание</button
+          ><button class="nav-item" data-page="pdf">
+            <span>▧</span> Документ PDF
+          </button>
+        </nav>
+        <div class="sidebar-bottom">
+          <div class="source-pill">
+            <span class="source-dot"></span> По официальному силлабусу
+          </div>
+          <small>Русский язык · B1<br />2026–2027 уч. год</small>
+        </div>
+      </aside>
+      <div class="main-wrap">
+        <header class="topbar">
+          <button class="menu-button" id="menuBtn" aria-label="Открыть меню">
+            ☰
+          </button>
+          <div class="crumb">
+            Обучение <span>/</span> <strong id="crumbTitle">Обзор курса</strong>
+          </div>
+          <div class="top-actions">
+            <span class="year-label">2026 — 2027</span
+            ><span class="avatar">АӘ</span>
+          </div>
+        </header>
+        <main id="content" class="content"></main>
+        <footer class="footer">
+          Учебный проект по материалам силлабуса ALT Университета · 2026–2027
+          <span>Данные из загруженного PDF</span>
+        </footer>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
